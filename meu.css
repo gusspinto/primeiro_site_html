@@ -1,0 +1,153 @@
+header {
+    color: gray;
+    margin: 0%;
+}
+
+head {
+    color: gray;
+    padding: 20px;
+    text-align: center;
+    font-size: 19px;
+}
+
+.text-center {
+    text-align: center;
+    color: rgb(171, 161, 161);
+    background-color: rgb(95, 92, 92);
+    margin: auto;
+    line-height: normal;
+
+}
+
+#nav {
+    text-decoration: none;
+    border-bottom: 5px solid blue;
+    display: block;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #747070;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+}
+
+#nav a {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 17px;
+    padding: 14px 16px;
+    color: black;
+}
+
+#nav a:hover {
+    background-color: #51535c;
+    color: black;
+}
+
+#nav a.active {
+    background-color: #3e75a1;
+    color: black;
+}
+
+a {
+    text-decoration: none;
+}
+
+h1 {
+    font-family: 'Gloock', serif;
+    font-size: 45px;
+}
+
+body {
+    background-color: #fff;
+    color: black;
+}
+
+img {
+    padding: 30px;
+    width: 60%;
+    float: right;
+    font-size: 10px;
+    border: brown;
+}
+
+.head-lead {
+    color: #3e75a1;
+    font-size: 23px;
+    text-align: center;
+    font-family: 'Spartan';
+    font-weight: 600;
+    line-height: 30px;
+}
+
+li {
+    /*faz o menu ser redondo
+    /*padding: 5px cima 10px direita 10px baixo 5px esquerda*/
+    display: inline;
+    width: 100px;
+    color: black;
+    text-align: center;
+    margin: 0 15px 0 0;
+    padding: 5px 10px 5px 10px;
+}
+
+.b {
+    color: blue;
+}
+
+.grey {
+    color: grey;
+    font-style: oblique;
+    font-size: 20px;
+}
+
+.text {
+    position: relative;
+    text-align: center;
+    color: rgba(0, 0, 0, 0.671);
+    word-spacing: 0px;
+    line-height: 0px;
+    font-size: 22px;
+    padding: 5px 10px 10px 300px;
+    text-align: justify;
+}
+
+.text2 {
+    color: rgba(0, 0, 0, 0.671);
+    word-spacing: 0px;
+    line-height: 15px;
+    font-size: 18.5px;
+    font-weight: 400;
+    height: 1350px;
+    font-style: normal;
+    line-height: 1.58;
+    border: 3px solid #3f5b78;
+    border-style: dashed;
+    position: relative;
+}
+
+.textplace {
+    text-align: center;
+    padding: 70px 10px 10px 300px;
+    text-align: justify;
+}
+
+.person1 {
+    text-align: left;
+}
+
+.person1>img {
+    height: 250px;
+    object-fit: contain;
+    float: left;
+    padding: 10px 30px 100px 10px;
+}
+
+.person1>p {
+    height: 250px;
+    float: left;
+}
+
+.more {
+    text-align: center;
+    text-size-adjust: inherit;
+}
