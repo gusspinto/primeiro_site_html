@@ -1,3 +1,7 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+}
 header {
     color: gray;
     margin: 0%;
@@ -17,6 +21,22 @@ head {
     margin: auto;
     line-height: normal;
 
+}
+   .text-center h1{
+            color: #ffffff;
+            position:relative;
+			top: 50%;
+			left: 50%;
+			transform: translate(-50%, -50%);
+			z-index: 1;
+            justify-content: space-between;
+        }
+
+ #gym .text-center{
+    background-image: url('imagens/fitness-up-preve-abrir-8-novos-ginasios-em-2019-1544801943.jpg');
+}
+#celeb .text-center{
+    background-image: url('imagens/top-4-open-arnold-2021.jpg.webp');
 }
 
 #nav {
@@ -71,6 +91,7 @@ img {
 }
 
 .head-lead {
+    margin-top: 10px;
     color: #3e75a1;
     font-size: 23px;
     text-align: center;
@@ -106,8 +127,8 @@ li {
     color: rgba(0, 0, 0, 0.671);
     word-spacing: 0px;
     line-height: 0px;
-    font-size: 22px;
-    padding: 5px 10px 10px 300px;
+    font-size: 20px;
+    padding: 5px 20px 10px 300px;
     text-align: justify;
 }
 
