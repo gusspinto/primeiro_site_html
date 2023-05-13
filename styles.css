@@ -1,7 +1,8 @@
-*{
+* {
     box-sizing: border-box;
     margin: 0;
 }
+
 header {
     color: gray;
     margin: 0%;
@@ -22,21 +23,23 @@ head {
     line-height: normal;
 
 }
-   .text-center h1{
-            color: #ffffff;
-            position:relative;
-			top: 50%;
-			left: 50%;
-			transform: translate(-50%, -50%);
-			z-index: 1;
-            justify-content: space-between;
-        }
 
-#gym .text-center{
+.text-center h1 {
+    color: #ffffff;
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 1;
+    justify-content: space-between;
+}
+
+#gym .text-center {
     background-image: url('imagens/fitness-up-preve-abrir-8-novos-ginasios-em-2019-1544801943.jpg');
     border-bottom: 5px solid blue;
 }
-#celeb .text-center{
+
+#celeb .text-center {
     background-image: url('imagens/body_celeb.png');
     border-bottom: 5px solid blue;
 }
@@ -155,16 +158,19 @@ li {
 }
 
 .person1 {
-    display: block;
-   /* text-align: left;*/
+    text-align: center;
+    padding: 70px 10px 10px 300px;
+    text-align: justify;
 }
 
 .person1 img {
     display: block;
-    height: 250px;
     object-fit: contain;
-    float: left;
-   /* padding: 10px 30px 100px 10px;*/
+
+    /*border: 3px solid #010912;
+    border-radius: 1000px 1000px 100px 100px;
+    border-style: groove;*/
+    height: 320px;
 }
 
 .person1 p {
