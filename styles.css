@@ -88,10 +88,8 @@ body {
 }
 
 img {
-    padding: 30px;
-    width: 60%;
-    float: right;
-    font-size: 10px;
+    width: 40%;
+    float: left;
     border: brown;
 }
 
@@ -143,24 +141,53 @@ li {
     /*line-height: 15px;*/
     font-size: 18.5px;
     font-weight: 400;
-    height: 1350px;
+    height: 970px;
     font-style: normal;
     line-height: 1.58;
     border: 3px solid #3f5b78;
     border-style: dashed;
     position: relative;
 }
-
+.text3{
+        color: rgba(0, 0, 0, 0.671);
+        word-spacing: 1px;
+        /*line-height: 15px;*/
+        font-size: 18.5px;
+        font-weight: 400;
+        height: 600px;
+        font-style: normal;
+        line-height: 1.58;
+        border: 3px solid #3f5b78;
+        border-style:dotted;
+        position: relative;
+        display: block;
+        justify-content: space-between;
+        align-items: center;
+        padding: 10px;
+        text-align: center;
+}
+.textceleb{
+    border-bottom: 5px solid blue;
+    display: block;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #747070;
+    color: #fff;
+    font-size: 16.5px;
+    padding: 10px;
+    text-align: center;
+}
 .textplace {
     text-align: center;
     padding: 70px 10px 10px 300px;
     text-align: justify;
 }
 
-.person1 {
+.person1 {  
     text-align: center;
     padding: 70px 10px 10px 300px;
     text-align: justify;
+    background-color: #747070;
 }
 
 .person1 img {
@@ -170,7 +197,7 @@ li {
     /*border: 3px solid #010912;
     border-radius: 1000px 1000px 100px 100px;
     border-style: groove;*/
-    height: 320px;
+    height: 300px;
 }
 
 .person1 p {
