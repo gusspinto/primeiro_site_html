@@ -154,7 +154,7 @@ li {
         /*line-height: 15px;*/
         font-size: 18.5px;
         font-weight: 400;
-        height: 600px;
+        height: 900px;
         font-style: normal;
         line-height: 1.58;
         border: 3px solid #3f5b78;
@@ -164,6 +164,7 @@ li {
         justify-content: space-between;
         align-items: center;
         padding: 10px;
+        background-color: #747070;
         text-align: center;
 }
 .textceleb{
@@ -193,7 +194,7 @@ li {
 .person1 img {
     display: block;
     object-fit: contain;
-
+    /*width: 60%;*/
     /*border: 3px solid #010912;
     border-radius: 1000px 1000px 100px 100px;
     border-style: groove;*/
