@@ -148,26 +148,28 @@ li {
     border-style: dashed;
     position: relative;
 }
-.text3{
-        color: rgba(0, 0, 0, 0.671);
-        word-spacing: 1px;
-        /*line-height: 15px;*/
-        font-size: 18.5px;
-        font-weight: 400;
-        height: 900px;
-        font-style: normal;
-        line-height: 1.58;
-        border: 3px solid #3f5b78;
-        border-style:dotted;
-        position: relative;
-        display: block;
-        justify-content: space-between;
-        align-items: center;
-        padding: 10px;
-        background-color: #747070;
-        text-align: center;
+
+.text3 {
+    color: rgba(0, 0, 0, 0.671);
+    word-spacing: 1px;
+    /*line-height: 15px;*/
+    font-size: 18.5px;
+    font-weight: 400;
+    height: 900px;
+    font-style: normal;
+    line-height: 1.58;
+    border: 3px solid #3f5b78;
+    border-style: dotted;
+    position: relative;
+    display: block;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    background-color: #747070;
+    text-align: center;
 }
-.textceleb{
+
+.textceleb {
     border-bottom: 5px solid blue;
     display: block;
     justify-content: space-between;
@@ -178,13 +180,14 @@ li {
     padding: 10px;
     text-align: center;
 }
+
 .textplace {
     text-align: center;
     padding: 70px 10px 10px 300px;
     text-align: justify;
 }
 
-.person1 {  
+.person1 {
     text-align: center;
     padding: 70px 10px 10px 300px;
     text-align: justify;
