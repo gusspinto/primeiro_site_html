@@ -38,6 +38,11 @@ head {
     background-image: url('imagens/fitness-up-preve-abrir-8-novos-ginasios-em-2019-1544801943.jpg');
     border-bottom: 5px solid blue;
 }
+.person1 h4{
+    background-color: #747070;
+    text-align: left;
+    border: 0px solid;
+}
 
 #celeb .text-center {
     background-image: url('imagens/body_celeb.png');
@@ -52,7 +57,7 @@ head {
     align-items: center;
     background-color: #747070;
     color: #fff;
-    padding: 10px;
+    padding: 13.5px;
     text-align: center;
 }
 
@@ -80,6 +85,12 @@ a {
 h1 {
     font-family: 'Gloock', serif;
     font-size: 45px;
+}
+
+h4{
+    border: 3px solid black;
+    background-color: #747070;
+    text-align: center;
 }
 
 body {
@@ -144,21 +155,22 @@ h3 {
     height: 970px;
     font-style: normal;
     line-height: 1.58;
-    border: 3px solid #3f5b78;
+    border: 3px solid black;
     border-style: dashed;
     position: relative;
+    background-color: #747070;
 }
 
-.text3 {
+.text3{
     color: rgba(0, 0, 0, 0.671);
     word-spacing: 1px;
     /*line-height: 15px;*/
     font-size: 18.5px;
     font-weight: 400;
-    height: 900px;
+    height: 750px;
     font-style: normal;
     line-height: 1.58;
-    border: 3px solid #3f5b78;
+    border: 3px solid;
     border-style: dotted;
     position: relative;
     display: block;
@@ -168,13 +180,31 @@ h3 {
     background-color: #747070;
     text-align: center;
 }
-<<<<<<< HEAD
+
+.text4{
+    color: rgba(0, 0, 0, 0.671);
+    word-spacing: 1px;
+    /*line-height: 15px;*/
+    font-size: 18.5px;
+    font-weight: 400;
+    height: 950px;
+    font-style: normal;
+    line-height: 1.58;
+    border: 3px solid;
+    border-style: dotted;
+    position: relative;
+    display: block;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    background-color: #747070;
+    text-align: center;
+}
 .wraparea{
     display: block;
     display: inline;
     width: 300px;
-    height: 230px;
-    background-color: #3e75a1;
+    height: 150px;
 }
 .textceleb{
     border-bottom: 5px solid blue;
@@ -204,10 +234,6 @@ h3 {
 .person1 img {
     display: block;
     object-fit: contain;
-    /*width: 60%;*/
-    /*border: 3px solid #010912;
-    border-radius: 1000px 1000px 100px 100px;
-    border-style: groove;*/
     height: 300px;
 }
 
